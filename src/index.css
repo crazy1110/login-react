@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 500px;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+.login-input {
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.login-field {
+  margin-bottom: 15px;
+  display: flex;
+}
+.login-field .login-username {
+  display: flex;
+  flex-basis: 100px;
+  font-size: 14px;
+}
+.login-field .login-username-input {
+  display: flex;
+  flex: 1;
+}
+
+.login-username-input input,
+.login-password-input input {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+  flex: 1;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  position:relative;
+}
+
+.login-button button {
+  padding: 5px 10px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: #00a3cf;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin-left:30px;
+}
+
+.login-button button:active {
+  background: #13c1f1;
+}
